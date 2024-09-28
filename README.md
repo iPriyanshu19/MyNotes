@@ -93,7 +93,3 @@ The app follows the **BLoC (Business Logic Component)** architecture to separate
 ## Contribution
 
 Contributions are welcome! Please create a pull request or open an issue if you encounter any bugs or have suggestions for improvement.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
