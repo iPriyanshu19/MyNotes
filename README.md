@@ -18,7 +18,17 @@
 
 ## Screenshots
 
-*Include relevant screenshots of your app here.*
+### Register Screen
+![Register Screen](screenshots/register_screen.jpg)
+
+### Login Screen
+![Login Screen](screenshots/login_screen.jpg)
+
+### Notes List
+![Notes List](screenshots/notes_screen.jpg)
+
+### Create Note
+![Create Note](screenshots/create_note_screen.jpg)
 
 ## Installation
 
