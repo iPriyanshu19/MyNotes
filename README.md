@@ -18,17 +18,11 @@
 
 ## Screenshots
 
-### Register Screen
-![Register Screen](screenshots/register_screen.jpg)
+| Register Screen | Login Screen | Create Note | Notes List |
+|------------------|--------------|-------------|-------------|
+| <img src="screenshots/register_screen.jpg" alt="Register Screen" width="200" height="433"/> | <img src="screenshots/login_screen.jpg" alt="Login Screen" width="200" height="433"/> | <img src="screenshots/create_note_screen.jpg" alt="Create Note" width="200" height="433"/> | <img src="screenshots/notes_screen.jpg" alt="Notes List" width="200" height="433"/>
 
-### Login Screen
-![Login Screen](screenshots/login_screen.jpg)
 
-### Notes List
-![Notes List](screenshots/notes_screen.jpg)
-
-### Create Note
-![Create Note](screenshots/create_note_screen.jpg)
 
 ## Installation
 
