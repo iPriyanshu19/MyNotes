@@ -64,23 +64,8 @@ The app uses Firebase for authentication and storing notes. Make sure to set up 
 1. Create a Firebase project [here](https://console.firebase.google.com/).
 2. Add Android/iOS apps to the Firebase project.
 3. Download the `google-services.json` (for Android) or `GoogleService-Info.plist` (for iOS) and place them in the respective directories in your Flutter project.
-4. Configure Firebase in `pubspec.yaml`:
-   ```yaml
-   dependencies:
-     firebase_core: ^3.4.0
-     firebase_auth: ^5.2.0
-     cloud_firestore: ^5.3.0
-   ```
-
-5. Initialize Firebase in `main.dart`:
-
-   ```dart
-   void main() async {
-     WidgetsFlutterBinding.ensureInitialized();
-     await Firebase.initializeApp();
-     runApp(MyNotesApp());
-   }
-   ```
+4. Configure Firebase in `pubspec.yaml`
+5. Initialize Firebase in `main.dart`
 
 ## App Architecture
 
