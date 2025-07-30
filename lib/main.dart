@@ -17,7 +17,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
     MaterialApp(
-      title: 'Flutter Demo',
+      title: 'My Notes',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -63,8 +63,10 @@ class HomePage extends StatelessWidget {
         } else if (state is AuthStateRegistering) {
           return const RegisterView();
         } else {
-          return const Scaffold(
-            body: CircularProgressIndicator(),
+          return const Center(
+            child: Scaffold(
+              body: CircularProgressIndicator(),
+            ),
           );
         }
       },
